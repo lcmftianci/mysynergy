@@ -1,0 +1,11 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/lib/net/CMakeFiles/generate.stamp is up-to-date.
+  IDataSocket.cpp
+  NetworkAddress.cpp
+  SocketMultiplexer.cpp
+  TCPListenSocket.cpp
+  TCPSocket.cpp
+  TCPSocketFactory.cpp
+  XSocket.cpp
+E:\vsproj\synergy\synergy-core\src\lib\net\TCPSocket.cpp(336): warning C4267: 'argument': conversion from 'size_t' to 'UInt32', possible loss of data
+  net.vcxproj -> E:\vsproj\synergy\buildwin64\src\lib\net\Debug\net.lib

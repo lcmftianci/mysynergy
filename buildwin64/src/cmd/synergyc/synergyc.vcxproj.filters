@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\synergyc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\synergyc.ico" />
+    <None Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\tb_error.ico" />
+    <None Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\tb_idle.ico" />
+    <None Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\tb_run.ico" />
+    <None Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\tb_wait.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\vsproj\synergy\synergy-core\src\cmd\synergyc\synergyc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6881AC06-9177-3DC2-8A89-1B2817190FAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FEAB8957-134F-319B-BDAB-DE3082559588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

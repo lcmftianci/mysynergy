@@ -1,0 +1,31 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/server/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/lib/server/CMakeFiles/generate.stamp is up-to-date.
+  BaseClientProxy.cpp
+  ClientListener.cpp
+  ClientProxy.cpp
+  ClientProxy1_0.cpp
+  ClientProxy1_1.cpp
+  ClientProxy1_2.cpp
+  ClientProxy1_3.cpp
+  ClientProxy1_4.cpp
+  ClientProxy1_5.cpp
+  ClientProxy1_6.cpp
+  ClientProxyUnknown.cpp
+  Config.cpp
+  InputFilter.cpp
+  PrimaryClient.cpp
+  Server.cpp
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(172): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file E:\vsproj\synergy\synergy-core\src\lib\server\Config.cpp)
+  E:\vsproj\synergy\synergy-core\src\lib\server\Config.cpp(2100): note: see reference to function template instantiation 'std::pair<float,float>::pair<double,double,void,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=double,
+              _Other2=double
+          ]
+  E:\vsproj\synergy\synergy-core\src\lib\server\Config.cpp(2100): note: see reference to function template instantiation 'std::pair<float,float>::pair<double,double,void,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=double,
+              _Other2=double
+          ]
+  server.vcxproj -> E:\vsproj\synergy\buildwin64\src\lib\server\Debug\server.lib

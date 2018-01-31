@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/shared/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/lib/shared/CMakeFiles/generate.stamp is up-to-date.
+  SerialKey.cpp
+E:\vsproj\synergy\synergy-core\src\lib\shared\SerialKey.cpp(63): warning C4018: '<=': signed/unsigned mismatch
+E:\vsproj\synergy\synergy-core\src\lib\shared\SerialKey.cpp(63): warning C4018: '<': signed/unsigned mismatch
+E:\vsproj\synergy\synergy-core\src\lib\shared\SerialKey.cpp(77): warning C4018: '<=': signed/unsigned mismatch
+E:\vsproj\synergy\synergy-core\src\lib\shared\SerialKey.cpp(152): warning C4018: '<': signed/unsigned mismatch
+  shared.vcxproj -> E:\vsproj\synergy\buildwin64\src\lib\shared\Debug\shared.lib

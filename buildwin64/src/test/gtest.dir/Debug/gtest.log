@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/test/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/test/CMakeFiles/generate.stamp is up-to-date.
+  gtest-all.cc
+  gtest.vcxproj -> E:\vsproj\synergy\buildwin64\src\test\Debug\gtest.lib

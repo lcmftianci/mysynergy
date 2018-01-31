@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\AppUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ArgParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ArgsBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClientApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClientArgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClientTaskBarReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\Clipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClipboardChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\DaemonApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\DragInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\DropHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\FileChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\IClipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\IKeyState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\IPlatformScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\IPrimaryScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\KeyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\KeyState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\PacketStreamFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\PlatformScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\PortableTaskBarReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ProtocolUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ServerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ServerArgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ServerTaskBarReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\StreamChunker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ToolApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\ToolArgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\XScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\XSynergy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\key_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\protocol_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\core\win32\AppUtilWindows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\AppUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ArgParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ArgsBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\Chunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClientApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClientArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClientTaskBarReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\Clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ClipboardChunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\DaemonApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\DragInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\DropHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\FileChunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IAppUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IClipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IKeyState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\INode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IPlatformScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IPrimaryScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\IScreenSaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ISecondaryScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\KeyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\KeyState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\PacketStreamFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\PlatformScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\PortableTaskBarReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ProtocolUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ServerApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ServerArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ServerTaskBarReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\StreamChunker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ToolApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\ToolArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\XScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\XSynergy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\clipboard_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\key_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\mouse_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\option_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\protocol_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\core\win32\AppUtilWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vsproj\synergy\synergy-core\src\lib\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6881AC06-9177-3DC2-8A89-1B2817190FAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FEAB8957-134F-319B-BDAB-DE3082559588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

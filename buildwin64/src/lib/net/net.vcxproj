@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B44F95F3-DBE3-35C5-8293-51ED1569B9A8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>net</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">net.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">net</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">net.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">net</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">net.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">net</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">net.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">net</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION="2.0.0";SYNERGY_VERSION_STRING="2.0.0-snapshot.b1-35602ed6";SYNERGY_REVISION="35602ed6";SYNERGY_BUILD_DATE="20180131";SYNERGY_BUILD_NUMBER="1";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION=\"2.0.0\";SYNERGY_VERSION_STRING=\"2.0.0-snapshot.b1-35602ed6\";SYNERGY_REVISION=\"35602ed6\";SYNERGY_BUILD_DATE=\"20180131\";SYNERGY_BUILD_NUMBER=\"1\";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION="2.0.0";SYNERGY_VERSION_STRING="2.0.0-snapshot.b1-35602ed6";SYNERGY_REVISION="35602ed6";SYNERGY_BUILD_DATE="20180131";SYNERGY_BUILD_NUMBER="1";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION=\"2.0.0\";SYNERGY_VERSION_STRING=\"2.0.0-snapshot.b1-35602ed6\";SYNERGY_REVISION=\"35602ed6\";SYNERGY_BUILD_DATE=\"20180131\";SYNERGY_BUILD_NUMBER=\"1\";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION="2.0.0";SYNERGY_VERSION_STRING="2.0.0-snapshot.b1-35602ed6";SYNERGY_REVISION="35602ed6";SYNERGY_BUILD_DATE="20180131";SYNERGY_BUILD_NUMBER="1";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION=\"2.0.0\";SYNERGY_VERSION_STRING=\"2.0.0-snapshot.b1-35602ed6\";SYNERGY_REVISION=\"35602ed6\";SYNERGY_BUILD_DATE=\"20180131\";SYNERGY_BUILD_NUMBER=\"1\";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION="2.0.0";SYNERGY_VERSION_STRING="2.0.0-snapshot.b1-35602ed6";SYNERGY_REVISION="35602ed6";SYNERGY_BUILD_DATE="20180131";SYNERGY_BUILD_NUMBER="1";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BIND_TO_CURRENT_VCLIBS_VERSION=1;NDEBUG;SYNERGY_VERSION=\"2.0.0\";SYNERGY_VERSION_STRING=\"2.0.0-snapshot.b1-35602ed6\";SYNERGY_REVISION=\"35602ed6\";SYNERGY_BUILD_DATE=\"20180131\";SYNERGY_BUILD_NUMBER=\"1\";_CRT_SECURE_NO_WARNINGS;_XKEYCHECK_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\vsproj\synergy\synergy-core\.\ext\gtest\include;E:\vsproj\synergy\synergy-core\src\.\lib;E:\vsproj\synergy\buildwin64\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/vsproj/synergy/synergy-core -BE:/vsproj/synergy/buildwin64 --check-stamp-file E:/vsproj/synergy/buildwin64/src/lib/net/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/vsproj/synergy/synergy-core -BE:/vsproj/synergy/buildwin64 --check-stamp-file E:/vsproj/synergy/buildwin64/src/lib/net/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/vsproj/synergy/synergy-core -BE:/vsproj/synergy/buildwin64 --check-stamp-file E:/vsproj/synergy/buildwin64/src/lib/net/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/vsproj/synergy/synergy-core -BE:/vsproj/synergy/buildwin64 --check-stamp-file E:/vsproj/synergy/buildwin64/src/lib/net/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/vsproj/synergy/synergy-core/src/lib/net/CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;E:\vsproj\synergy\synergy-core\src\lib\net\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\vsproj\synergy\buildwin64\src\lib\net\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\net\IDataSocket.cpp"  />
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\net\NetworkAddress.cpp"  />
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\net\SocketMultiplexer.cpp"  />
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\net\TCPListenSocket.cpp"  />
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\net\TCPSocket.cpp"  />
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\net\TCPSocketFactory.cpp"  />
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\lib\net\XSocket.cpp"  />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\IDataSocket.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\IListenSocket.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\ISocket.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\ISocketFactory.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\ISocketMultiplexerJob.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\NetworkAddress.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\SocketMultiplexer.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\TCPListenSocket.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\TCPSocket.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\TCPSocketFactory.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\TSocketMultiplexerMethodJob.h" />
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\lib\net\XSocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\vsproj\synergy\buildwin64\ZERO_CHECK.vcxproj">
+      <Project>{CCA915F0-9E57-3BCF-B157-44AAFE9D69DF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

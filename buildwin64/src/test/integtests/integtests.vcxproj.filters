@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\test\integtests\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\test\integtests\arch\ArchInternetTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\test\integtests\net\NetworkTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\test\integtests\platform\MSWindowsClipboardTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\test\integtests\platform\MSWindowsKeyStateTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vsproj\synergy\synergy-core\src\test\global\TestEventQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\global\TestEventQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\global\gmock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\global\gtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\io\MockStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\server\MockConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\server\MockInputFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\server\MockPrimaryClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\server\MockServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\synergy\MockApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\synergy\MockArgParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\synergy\MockEventQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\synergy\MockKeyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\synergy\MockKeyState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vsproj\synergy\synergy-core\src\test\mock\synergy\MockScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vsproj\synergy\synergy-core\src\test\integtests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6881AC06-9177-3DC2-8A89-1B2817190FAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FEAB8957-134F-319B-BDAB-DE3082559588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

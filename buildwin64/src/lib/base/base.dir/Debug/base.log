@@ -1,0 +1,18 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/base/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/lib/base/CMakeFiles/generate.stamp is up-to-date.
+  Event.cpp
+  EventQueue.cpp
+  EventTypes.cpp
+  FunctionEventJob.cpp
+  FunctionJob.cpp
+  Log.cpp
+E:\vsproj\synergy\synergy-core\src\lib\base\Log.cpp(182): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+E:\vsproj\synergy\synergy-core\src\lib\base\Log.cpp(183): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+E:\vsproj\synergy\synergy-core\src\lib\base\Log.cpp(184): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  SimpleEventQueueBuffer.cpp
+  Stopwatch.cpp
+  String.cpp
+  Unicode.cpp
+  XBase.cpp
+  log_outputters.cpp
+  base.vcxproj -> E:\vsproj\synergy\buildwin64\src\lib\base\Debug\base.lib

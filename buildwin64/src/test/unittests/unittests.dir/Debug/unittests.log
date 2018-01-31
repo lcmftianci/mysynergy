@@ -1,0 +1,36 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/test/unittests/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/test/unittests/CMakeFiles/generate.stamp is up-to-date.
+  Main.cpp
+  StringTests.cpp
+  SerialKeyTests.cpp
+  ArgParserTests.cpp
+  ClientArgsParsingTests.cpp
+E:\vsproj\synergy\synergy-core\ext\gtest\include\gtest/gtest.h(1316): warning C4805: '==': unsafe mix of type 'const bool' and type 'const time_t' in operation (compiling source file E:\vsproj\synergy\synergy-core\src\test\unittests\shared\SerialKeyTests.cpp)
+  E:\vsproj\synergy\synergy-core\ext\gtest\include\gtest/gtest.h(1353): note: see reference to function template instantiation 'testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)' being compiled
+          with
+          [
+              T1=bool,
+              T2=time_t
+          ] (compiling source file E:\vsproj\synergy\synergy-core\src\test\unittests\shared\SerialKeyTests.cpp)
+  E:\vsproj\synergy\synergy-core\src\test\unittests\shared\SerialKeyTests.cpp(63): note: see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<bool,time_t>(const char *,const char *,const T1 &,const T2 &)' being compiled
+          with
+          [
+              T1=bool,
+              T2=time_t
+          ]
+  E:\vsproj\synergy\synergy-core\src\test\unittests\shared\SerialKeyTests.cpp(63): note: see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper<false>::Compare<bool,time_t>(const char *,const char *,const T1 &,const T2 &)' being compiled
+          with
+          [
+              T1=bool,
+              T2=time_t
+          ]
+  ClipboardChunkTests.cpp
+  ClipboardTests.cpp
+  DeprecatedArgsParsingTests.cpp
+  GenericArgsParsingTests.cpp
+  KeyMapTests.cpp
+  KeyStateTests.cpp
+  ServerArgsParsingTests.cpp
+  TestEventQueue.cpp
+  unittests.vcxproj -> E:\vsproj\synergy\buildwin64\bin\Debug\unittests.exe
+  unittests.vcxproj -> E:/vsproj/synergy/buildwin64/bin/Debug/unittests.pdb (Full PDB)

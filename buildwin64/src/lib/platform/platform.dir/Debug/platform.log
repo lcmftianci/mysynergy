@@ -1,0 +1,24 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/platform/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/lib/platform/CMakeFiles/generate.stamp is up-to-date.
+  MSWindowsClipboard.cpp
+  MSWindowsClipboardAnyTextConverter.cpp
+  MSWindowsClipboardBitmapConverter.cpp
+  MSWindowsClipboardFacade.cpp
+  MSWindowsClipboardHTMLConverter.cpp
+  MSWindowsClipboardTextConverter.cpp
+  MSWindowsClipboardUTF16Converter.cpp
+  MSWindowsDebugOutputter.cpp
+  MSWindowsDesks.cpp
+  MSWindowsDropTarget.cpp
+  MSWindowsEventQueueBuffer.cpp
+  MSWindowsHook.cpp
+  MSWindowsKeyState.cpp
+  MSWindowsScreen.cpp
+  MSWindowsScreenSaver.cpp
+E:\vsproj\synergy\synergy-core\src\lib\platform\MSWindowsHook.cpp(479): warning C4800: 'DWORD': forcing value to bool 'true' or 'false' (performance warning)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\multimon.h(185): warning C4996: 'GetVersionExA': was declared deprecated (compiling source file E:\vsproj\synergy\synergy-core\src\lib\platform\MSWindowsScreen.cpp)
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA' (compiling source file E:\vsproj\synergy\synergy-core\src\lib\platform\MSWindowsScreen.cpp)
+E:\vsproj\synergy\synergy-core\src\lib\platform\MSWindowsScreen.cpp(1145): warning C4800: 'LPARAM': forcing value to bool 'true' or 'false' (performance warning)
+  MSWindowsSession.cpp
+  MSWindowsUtil.cpp
+  platform.vcxproj -> E:\vsproj\synergy\buildwin64\src\lib\platform\Debug\platform.lib

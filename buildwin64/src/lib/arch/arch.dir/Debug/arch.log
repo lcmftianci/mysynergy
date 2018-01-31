@@ -1,0 +1,25 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/lib/arch/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/lib/arch/CMakeFiles/generate.stamp is up-to-date.
+  Arch.cpp
+  ArchConsoleStd.cpp
+  ArchDaemonNone.cpp
+  IArchString.cpp
+E:\vsproj\synergy\synergy-core\src\lib\arch\IArchString.cpp(94): warning C4244: 'return': conversion from 'ptrdiff_t' to 'int', possible loss of data
+E:\vsproj\synergy\synergy-core\src\lib\arch\IArchString.cpp(145): warning C4244: '-=': conversion from 'ptrdiff_t' to 'UInt32', possible loss of data
+E:\vsproj\synergy\synergy-core\src\lib\arch\IArchString.cpp(180): warning C4244: '-=': conversion from 'ptrdiff_t' to 'UInt32', possible loss of data
+E:\vsproj\synergy\synergy-core\src\lib\arch\IArchString.cpp(188): warning C4244: 'return': conversion from 'ptrdiff_t' to 'int', possible loss of data
+  ArchConsoleWindows.cpp
+  ArchDaemonWindows.cpp
+  ArchFileWindows.cpp
+  ArchInternetWindows.cpp
+  ArchLogWindows.cpp
+  ArchMiscWindows.cpp
+  ArchMultithreadWindows.cpp
+  ArchNetworkWinsock.cpp
+  ArchSleepWindows.cpp
+  ArchStringWindows.cpp
+  ArchSystemWindows.cpp
+  ArchTaskBarWindows.cpp
+  ArchTimeWindows.cpp
+  XArchWindows.cpp
+  arch.vcxproj -> E:\vsproj\synergy\buildwin64\src\lib\arch\Debug\arch.lib

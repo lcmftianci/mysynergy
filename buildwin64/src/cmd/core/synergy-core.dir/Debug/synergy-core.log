@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/vsproj/synergy/synergy-core/src/cmd/core/CMakeLists.txt
+  CMake does not need to re-run because E:/vsproj/synergy/buildwin64/src/cmd/core/CMakeFiles/generate.stamp is up-to-date.
+  main.cpp
+  synergy-core.vcxproj -> E:\vsproj\synergy\buildwin64\bin\Debug\synergy-core.exe
+  synergy-core.vcxproj -> E:/vsproj/synergy/buildwin64/bin/Debug/synergy-core.pdb (Full PDB)
